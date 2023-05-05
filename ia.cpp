@@ -5,6 +5,13 @@
 
 using namespace std;
 
+/*	Nom : Davion
+##	Prenom : Yohan
+##	Date : 25/01/2023
+##	Fichier : ia.cpp
+##	Rôle : Toute les méthodes de contrôle pour permettre à l'IA de jouer correctement en suivant l'ordre logique des contrôles.
+*/
+
 ia::ia() {
 }
 

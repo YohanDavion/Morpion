@@ -4,6 +4,13 @@
 
 using namespace std;
 
+/*	Nom : Davion
+##	Prenom : Yohan
+##	Date : 25/01/2023
+##	Fichier : ia.cpp
+##	Rôle : Toutes les méthodes gérant l'affichage et l'interface utilisateur
+*/
+
 display::display() {
 
 }
@@ -98,6 +105,7 @@ void display::displayEnd(char gameStateCheck) {
 	}
 }
 
+// Méthodes qui vérifie si le joueur ne joue pas sur une case déjà remplis
 void display::userPlay(char tabMorpion[]) {
 	int reponse(0);
 	bool status(false);
